@@ -10,6 +10,7 @@ https://github.com/komarserjio/notejam/tree/master/express
 2. Manager Kubernetes Cluster - GKE
 3. Terraform
 4. Javascript
+5. Prometheus and Grafana
 
 Note: The state file of the terraform is stored in GCP Bucket.
 
@@ -22,12 +23,17 @@ Note: The state file of the terraform is stored in GCP Bucket.
 | Number of Worker Nodes:  | 3  |
 | Autoscaling  | Yes  |
 
-
 ## Access the Applicationn
 
 http://34.79.88.190:30361/signin
 
 Best approach is to use a Ingress but for now, I have used type NodePort.
+
+## Access Prometheus and Grafana
+
+Prometheus: http://34.79.88.190:30084
+
+Grafana: http://34.79.88.190:30841
 
 ## Answers to questions asked:
 
@@ -39,7 +45,7 @@ _____________
 
 * The Customer takes guarantee to preserve your notes up to 3 years and recover it if needed.
 
-#### There is a option to make this application into smaller microservices. Once it's stateless, we can apply lifecycle policies for the data stored.
+#### There is a option to make this application into individual smaller microservices. Once it's stateless, we can apply lifecycle policies for the data stored. In this case, we can update the db.js.
 _____________
 
 * The Customer ensures continuity in service in case of datacenter failures.
@@ -70,5 +76,5 @@ _____________
 * The Customer wants to see relevant metrics and logs from the infrastructure for quality assurance and security
 purposes.
 
-#### Prometheus can be installed for metrics and Grafana for graphical representation.
+#### Prometheus and Grafana has been deployed using helm to collect relavant metrics and dashboard.
 
