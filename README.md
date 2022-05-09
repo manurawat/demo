@@ -18,15 +18,15 @@ Note: The state file of the terraform is stored in GCP Bucket.
 * The Application must serve variable amount of traffic. Most users are active during business hours. During big
 events and conferences the traffic could be 4 times more than typical.
 
-### GKE is cluster is running with 3 worker nodes and autoscaling is enabled. If the number of active users increases, cluster will autoscale itself.
+##### GKE is cluster is running with 3 worker nodes and autoscaling is enabled. If the number of active users increases, cluster will autoscale itself.
 
 * The Customer takes guarantee to preserve your notes up to 3 years and recover it if needed.
 
-### There is a option to make this application into smaller microservices. Once it's stateless, we can apply lifecycle policies for the data stored.
+##### There is a option to make this application into smaller microservices. Once it's stateless, we can apply lifecycle policies for the data stored.
 
 * The Customer ensures continuity in service in case of datacenter failures.
 
-### GKE cluster is deployed in 3 zones namely europe-west1-c, europe-west1-b and europe-west1-d.
+#### GKE cluster is deployed in 3 zones namely europe-west1-c, europe-west1-b and europe-west1-d.
 
 * The Service must be capable of being migrated to any regions supported by the cloud provider in case of
 emergency.
