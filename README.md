@@ -13,6 +13,10 @@ https://github.com/komarserjio/notejam/tree/master/express
 
 Note: The state file of the terraform is stored in GCP Bucket.
 
+## Access the Applicationn
+
+http://34.79.88.190:30361/signin
+
 ## Answers to questions asked:
 
 * The Application must serve variable amount of traffic. Most users are active during business hours. During big
