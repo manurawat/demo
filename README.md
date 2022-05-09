@@ -64,7 +64,7 @@ _____________
 * The Customer wants to provision separated environments to support their development process for development,
 testing, production in the near future.
 
-#### A Github Actions pipeline can be setup manage these environments. As of now, I have deployed only the Production Environment.
+#### I have created only 1 environment i.e. Prod but for future, we can create environments like Dev, Preprod and Prod. This can be achieved with Terraform.
 _____________
 
 * The Customer wants to see relevant metrics and logs from the infrastructure for quality assurance and security
