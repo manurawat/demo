@@ -21,6 +21,7 @@ Note: The state file of the terraform is stored in GCP Bucket.
 | Region: | europe-west1  |
 | Number of Zones:  |  3 |
 | Number of Worker Nodes:  | 3  |
+| Number of Instances (Pods):  | 3  |
 | Autoscaling  | Yes  |
 
 ## Access the Applicationn
