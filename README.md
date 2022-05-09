@@ -75,5 +75,5 @@ _____________
 * The Customer wants to see relevant metrics and logs from the infrastructure for quality assurance and security
 purposes.
 
-#### Prometheus/Grafana has been deployed using helm to collect relavant metrics and dashboard.
+#### Prometheus and Grafana has been deployed using helm to collect relavant metrics and dashboard.
 
