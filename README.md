@@ -13,6 +13,22 @@ https://github.com/komarserjio/notejam/tree/master/express
 
 Note: The state file of the terraform is stored in GCP Bucket.
 
+## Kubernetes Cluster Setup
+
+| Key | Value  |
+|---|---|
+| Region: | europe-west1  |
+| Number of Zones:  |  3 |
+| Number of Worker Nodes:  | 3  |
+| Autoscaling  | Yes  |
+
+
+## Access the Applicationn
+
+http://34.79.88.190:30361/signin
+
+Best approach is to use a Ingress but for now, I have used type NodePort.
+
 ## Answers to questions asked:
 
 * The Application must serve variable amount of traffic. Most users are active during business hours. During big
@@ -48,7 +64,7 @@ _____________
 * The Customer wants to provision separated environments to support their development process for development,
 testing, production in the near future.
 
-#### A Github Actions pipeline can be setup manage these environments. As of now, I have deployed only the Production Environment.
+#### I have created only 1 environment i.e. Prod but for future, we can create environments like Dev, Preprod and Prod. This can be achieved with Terraform.
 _____________
 
 * The Customer wants to see relevant metrics and logs from the infrastructure for quality assurance and security
