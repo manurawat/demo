@@ -45,7 +45,7 @@ _____________
 
 * The Customer takes guarantee to preserve your notes up to 3 years and recover it if needed.
 
-#### There is a option to make this application into smaller microservices. Once it's stateless, we can apply lifecycle policies for the data stored.
+#### There is a option to make this application into individual smaller microservices. Once it's stateless, we can apply lifecycle policies for the data stored. In this case, we can update the db.js.
 _____________
 
 * The Customer ensures continuity in service in case of datacenter failures.
