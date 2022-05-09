@@ -31,7 +31,8 @@ Best approach is to use a Ingress but for now, I have used type NodePort.
 
 ## Access Prometheus and Grafana
 
-Prometheus: http://34.79.88.190:30084/targets
+Prometheus: http://34.79.88.190:30084
+
 Grafana: http://34.79.88.190:30841
 
 ## Answers to questions asked:
