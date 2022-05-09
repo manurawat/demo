@@ -13,9 +13,19 @@ https://github.com/komarserjio/notejam/tree/master/express
 
 Note: The state file of the terraform is stored in GCP Bucket.
 
+## Kubernetes Cluster Setup
+
+Region: |	europe-west1
+Zones: |	3
+Number of worker nodes: |	3
+Autoscaling: | Yes
+
+
 ## Access the Applicationn
 
 http://34.79.88.190:30361/signin
+
+Best approach is to use a Ingress but for now, I have used type NodePort.
 
 ## Answers to questions asked:
 
