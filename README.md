@@ -41,7 +41,7 @@ Grafana: http://34.79.88.190:30841
 * The Application must serve variable amount of traffic. Most users are active during business hours. During big
 events and conferences the traffic could be 4 times more than typical.
 
-#### GKE is cluster is running with 3 worker nodes and autoscaling is enabled. If the number of active users increases, cluster will autoscale itself.
+#### GKE cluster is running with 3 worker nodes and autoscaling is enabled. If the number of active users increases, cluster will autoscale itself.
 _____________
 
 * The Customer takes guarantee to preserve your notes up to 3 years and recover it if needed.
