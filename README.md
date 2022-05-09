@@ -28,7 +28,7 @@ Note: The state file of the terraform is stored in GCP Bucket.
 
 http://34.79.88.190:30361/signin
 
-Best approach is to use a Ingress but for now, I have used type NodePort.
+Best approach is to use an Ingress but for now, I have used type NodePort.
 
 ## Access Prometheus and Grafana
 
