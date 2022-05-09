@@ -15,11 +15,12 @@ Note: The state file of the terraform is stored in GCP Bucket.
 
 ## Kubernetes Cluster Setup
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Key | Value  |
+|---|---|
+| Region: | europe-west1  |
+| Number of Zones:  |  3 |
+| Number of Worker Nodes:  | 3  |
+| Autoscaling  | Yes  |
 
 
 ## Access the Applicationn
