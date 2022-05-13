@@ -12,8 +12,7 @@ https://github.com/komarserjio/notejam/tree/master/express
 4. Javascript
 5. Prometheus and Grafana
 
-![image](https://user-images.githubusercontent.com/86109086/168295979-daf03cbb-8bc0-4045-84c1-31ac6c10bb07.png)
-
+![image](https://user-images.githubusercontent.com/86109086/168310670-670d75e8-c72a-48bc-a1b5-af8c05f6e43b.png)
 
 Note: The state file of the terraform is stored in GCP Bucket.
 
