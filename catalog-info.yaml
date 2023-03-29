@@ -1,11 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: enablement-backstage
-  description: An example of a Backstage application.
+  name: demo
   annotations:
-    backstage.io/adr-location: docs/adr
+    github.com/project-slug: manurawat/demo
 spec:
-  type: website
-  owner: john@example.com
-  lifecycle: experimental
+  type: other
+  lifecycle: unknown
